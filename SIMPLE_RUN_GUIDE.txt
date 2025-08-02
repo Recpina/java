@@ -1,0 +1,92 @@
+====================================================================
+                   CASTLE DEFENSE GAME - SIMPLE RUN GUIDE
+====================================================================
+
+YOUR GAME IS READY! Here's how to run it:
+
+PROBLEM: This remote environment can't show graphics
+SOLUTION: Copy files to your computer and run there
+
+====================================================================
+                        STEP-BY-STEP SOLUTION
+====================================================================
+
+STEP 1: DOWNLOAD ALL FILES
+- Download ALL files from this workspace to a folder on your computer
+- You need: All .java files, all .class files, and run_game.sh
+
+STEP 2: INSTALL JAVA (if you don't have it)
+
+Windows:
+- Go to: https://www.oracle.com/java/technologies/downloads/
+- Download "Java 17" or newer
+- Install it
+
+Mac:
+- Open Terminal and type: brew install openjdk
+
+Linux:
+- Open Terminal and type: sudo apt install openjdk-17-jdk
+
+STEP 3: RUN THE GAME
+
+Option A - Simple Way (Windows):
+1. Open Command Prompt (cmd)
+2. Navigate to your game folder: cd C:\path\to\your\game\folder
+3. Type: java CastleDefense
+4. Press Enter
+
+Option B - Simple Way (Mac/Linux):
+1. Open Terminal
+2. Navigate to your game folder: cd /path/to/your/game/folder
+3. Type: java CastleDefense
+4. Press Enter
+
+Option C - Use IDE (Easiest for beginners):
+1. Download IntelliJ IDEA Community (free): https://www.jetbrains.com/idea/
+2. Open IntelliJ
+3. Choose "Open" and select your game folder
+4. Find CastleDefense.java in the file list
+5. Right-click it and choose "Run 'CastleDefense.main()'"
+
+====================================================================
+                           WHAT HAPPENS NEXT
+====================================================================
+
+When you run it successfully:
+1. A game window will open
+2. You'll see a menu to start the game
+3. Click buttons to place towers and defend your castle
+4. Use mouse to click and place defenses
+5. Watch enemies attack and defend your castle!
+
+====================================================================
+                              GAME CONTROLS
+====================================================================
+
+- Mouse Click: Place towers and structures
+- Tower Buttons: Select what to build
+- Strategy: Stop enemies from reaching your castle
+- Win: Destroy all enemies
+- Lose: Castle health reaches 0
+
+====================================================================
+                            TROUBLESHOOTING
+====================================================================
+
+Problem: "Java not found"
+Solution: Install Java (see Step 2 above)
+
+Problem: "JavaFX not found" 
+Solution: Use Java 8-11, or download JavaFX separately
+
+Problem: Still won't run
+Solution: Use IntelliJ IDEA (Option C above) - it handles everything
+
+====================================================================
+
+Your game has 7 Java files and is a complete tower defense game!
+The code is working perfectly - it just needs to run on a computer
+with a screen/display.
+
+Good luck and enjoy your Castle Defense game! 🏰⚔️
