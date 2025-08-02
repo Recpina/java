@@ -251,7 +251,7 @@ public class GameEngine {
     
     private void damageEnemiesInRange(Bomb bomb) {
         for (Enemy enemy : enemies) {
-            double distance = bomb.getDistanceTo(enemy);
+            double distance = bomb.getDistanceTo(enemy.getX(), enemy.getY());
             if (distance <= bomb.getExplosionRadius()) {
                 enemy.takeDamage(bomb.getDamage());
             }
@@ -338,7 +338,7 @@ public class GameEngine {
     }
     
     // Public methods for game actions
-    public boolean placeTower(double x, double y, TowerType type) {
+    public boolean placeTower(double x, double y, DefenseTower.TowerType type) {
         int cost = type.getCost();
         if (coins.get() >= cost && gameMap.canPlaceTower(x, y)) {
             DefenseTower tower = new DefenseTower(x, y, type);

@@ -1,6 +1,6 @@
 import java.util.Random;
 
-public class SpeedBump {
+class SpeedBump {
     private double x, y;
     private long duration; // Duration in nanoseconds
     private long startTime;
